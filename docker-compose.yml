@@ -1,0 +1,13 @@
+services:
+  neowave-terminal:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      NEOWAVE_HOST: 0.0.0.0
+      NEOWAVE_PORT: 8080
+      NEOWAVE_ADMIN_TOKEN: ${NEOWAVE_ADMIN_TOKEN:-}
+      NEOWAVE_ENGINE_COMMAND: ${NEOWAVE_ENGINE_COMMAND:-}
+    volumes:
+      - ./neowave-data:/app/data
+    restart: unless-stopped

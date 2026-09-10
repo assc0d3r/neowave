@@ -1,0 +1,135 @@
+{
+  "name": "NEOWAVE Intelligence Terminal",
+  "version": "1.0.0-production",
+  "generated_at_utc": "2026-09-09T19:35:01.569113+00:00",
+  "files": {
+    ".env.example": {
+      "sha256": "0a78231e782399edb1acdd1d4e67c7fba07c87e23d1f7b8994824f75f01c883e",
+      "bytes": 177
+    },
+    ".gitignore": {
+      "sha256": "8901bd6d9333ad5badb09bed1162735493935cc0cbe22cca77a10f6a60f908f8",
+      "bytes": 112
+    },
+    "Dockerfile": {
+      "sha256": "01ae989baacf7e2cf4591477bb31f3c35fa973b328afb5117dba549c0542ea5e",
+      "bytes": 436
+    },
+    "README.md": {
+      "sha256": "27aa2325697cbf1f6696e6d36ba37f6e95eaee0346f14a5db838a18858c5a572",
+      "bytes": 4302
+    },
+    "START_HERE.txt": {
+      "sha256": "a1d139f544c97ac4b3b18589c533bbf1f5ca958acfc44fbc1de5653bdfe77269",
+      "bytes": 499
+    },
+    "VERSION": {
+      "sha256": "9c0768df9468d7c73646a89df1f388f21b88c818cbaf0a557e6a3c9534bf6f53",
+      "bytes": 17
+    },
+    "__pycache__/server.cpython-313.pyc": {
+      "sha256": "a804cab8d7092445a8a8a1c061abecb3721956150da038e228e4f67ff7f734b6",
+      "bytes": 66335
+    },
+    "data/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/jobs/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/locks/.gitkeep": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "database_schema.sql": {
+      "sha256": "8e317ec2529d63940a9b1eac26c8e163bf9bcf118f011dba628b2eb1244f99b2",
+      "bytes": 4060
+    },
+    "deploy/neowave-terminal.service": {
+      "sha256": "0f063223f1059b5b664b64a8d3c9e707f496ba2d47ae5abfdc168fd2d04c8607",
+      "bytes": 430
+    },
+    "docker-compose.yml": {
+      "sha256": "ec8124f0b134fbb4a08d4ba9c22b07782ea986828b4fadc6d98d3d67f7c3f069",
+      "bytes": 328
+    },
+    "docs/API.md": {
+      "sha256": "804b6b1c4b624eac8ee35e17ea58cc42ce0ba803604590fbc78aed59cde8da4a",
+      "bytes": 1187
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "b9458f39ed270180faa6520405518b69188cb54319e85c57bdb71a5c9bfd40fe",
+      "bytes": 2556
+    },
+    "docs/DEPLOYMENT.md": {
+      "sha256": "faea24e8eeaefe9182fb25fb30bb7ebe37546a4993d68efae8f81bd990ab3a44",
+      "bytes": 1237
+    },
+    "docs/SECURITY.md": {
+      "sha256": "55f35277fef7e3d51763011d9e19e3fafa6b31e6f16455296efca34ddf90e045",
+      "bytes": 1158
+    },
+    "docs/design-reference-neon-dashboard.jpg": {
+      "sha256": "e55b2abc20d7fd20c97ca1d92eebe507e982e36e13bc229668e8d77cf8a9c1ba",
+      "bytes": 276121
+    },
+    "engine/NEOWAVE_V3_2_1_FULLSTACK_RUNTIME.py": {
+      "sha256": "065ac012f312421547bef439b89fb959bb2d242d92c807cead795a988687e5c0",
+      "bytes": 58147
+    },
+    "engine/README.md": {
+      "sha256": "bc3e01d8aae78f18bab0353e5661b16148994e07a56f6992653834957f231521",
+      "bytes": 577
+    },
+    "engine/contracts/NEOWAVE_LOCKED_ANALYSIS_SCHEMA_V2_2.json": {
+      "sha256": "52a91c4df36a021c51b2736bf5e2f17f91bda5df051de3295f0f7a70995712d9",
+      "bytes": 7170
+    },
+    "engine/contracts/NEOWAVE_V3_2_1_EXECUTABLE_MASTER_CONTRACT.json": {
+      "sha256": "5da075aae959b5bb6eb03feb2784c96bd1fac83c3dc989abcb0cc525cda56ce4",
+      "bytes": 1510892
+    },
+    "examples/DEMO_LOCKED_ANALYSIS_V2_2.json": {
+      "sha256": "6cea7ef8c2f829c23c659c5b1a4b25593e8725b1a7e6368aec66f6f2a3164e45",
+      "bytes": 6092
+    },
+    "requirements.txt": {
+      "sha256": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6",
+      "bytes": 19
+    },
+    "scripts/healthcheck.py": {
+      "sha256": "7a59be410b63c95985064de2db81ffd346cb90764a1d19ece7ef4d245f1579a5",
+      "bytes": 263
+    },
+    "scripts/import_lock.py": {
+      "sha256": "d25c87804affd88da54b05b280875f4ac52d44f150f52f0d30a1676bd9c54c9a",
+      "bytes": 772
+    },
+    "server.py": {
+      "sha256": "b3b64cb551406bd680f7a9e773f9756bf5cc4fc0a25bab466ab7e76296afff69",
+      "bytes": 38778
+    },
+    "tests/__pycache__/test_server.cpython-313.pyc": {
+      "sha256": "1a6825ed2a98a334c0308feddea4b8b4872f948d9e77def4330522136c505ac9",
+      "bytes": 3153
+    },
+    "tests/test_server.py": {
+      "sha256": "eca922cc68b640b25e94c1c4f845533148a3e0fb01b1c2c0a471f39c51486277",
+      "bytes": 1211
+    },
+    "web/app.js": {
+      "sha256": "4743c54b641c828ee80f3b99b80ca3fdad9bd10253876016375c981e1bcde578",
+      "bytes": 31350
+    },
+    "web/index.html": {
+      "sha256": "4fcb9eab258aff339c539ae7de5c1c87e68304e796e211e51e4c7d01b10929ef",
+      "bytes": 22082
+    },
+    "web/styles.css": {
+      "sha256": "2181c0bbad73c65159f4f54eae60726c64e7fc4b6a28fc63ce5398386abb33e4",
+      "bytes": 38425
+    }
+  }
+}

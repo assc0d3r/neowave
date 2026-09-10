@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: neowave-intelligence-terminal
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NEOWAVE_HOST
+        value: 0.0.0.0
+      - key: NEOWAVE_PORT
+        value: 8080
+      - key: NEOWAVE_DATA_DIR
+        value: /app/data
+      - key: NEOWAVE_MAX_BODY_BYTES
+        value: "52428800"
+      - key: NEOWAVE_MAX_UPLOAD_FILES
+        value: "12"
+      - key: NEOWAVE_ADMIN_TOKEN
+        sync: false
+      - key: NEOWAVE_ENGINE_COMMAND
+        sync: false
+      - key: NEOWAVE_ENGINE_TIMEOUT_SECONDS
+        value: "900"

@@ -1,0 +1,10 @@
+NEOWAVE INTELLIGENCE TERMINAL — PRODUCTION v1.0.0
+
+1. Open a terminal in this folder.
+2. Optional but recommended: python -m pip install -r requirements.txt
+3. Run: python server.py
+4. Open: http://127.0.0.1:8080
+5. Import a canonical LOCKED_ANALYSIS V2.2 from Analyze, or configure NEOWAVE_ENGINE_COMMAND for direct runs.
+
+The website intentionally refuses to fabricate canonical analysis when no engine bridge is configured.
+See README.md for architecture, security and deployment instructions.
